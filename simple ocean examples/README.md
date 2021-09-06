@@ -1,0 +1,2 @@
+this is an exploration of the repository of introductory ocean program and concepts - https://ab8d8ca2-2b87-43ed-b95f-2916874e3f2f.ws.ide.dwavesys.io/#/workspace/simple-ocean-programs
+most are not my original work
