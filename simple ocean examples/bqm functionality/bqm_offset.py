@@ -26,7 +26,11 @@ Q = {('B','B'): 1,
     ('A','K'): -2,
     ('B','C'): -2}
 
-bqm = BinaryQuadraticModel.from_qubo(Q, offset=1.0) # OFFSET here
+bqm = BinaryQuadraticModel.from_qubo(Q, offset=1) # OFFSET here: 
+# offset vs energy levels: (e = o-1)
+# 2 = 1
+# 1 = 0
+# 0 = -1
 
 sampler = EmbeddingComposite(DWaveSampler())
 
