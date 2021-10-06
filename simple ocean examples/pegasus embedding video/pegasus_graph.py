@@ -19,4 +19,4 @@ P6 = P6_perfect.subgraph(mask_nodes).copy()
 # added myself to experiment with it
 # for kwargs in .draw_pegasus, https://networkx.org/documentation/networkx-1.7/reference/generated/networkx.drawing.nx_pylab.draw_networkx.html
 dnx.draw_pegasus(P6_perfect, node_color="Yellow", node_size=5, alpha=0.8, width=0.5)
-plt.savefig('simple ocean examples/pegasus embedding video/P6_test.png')
+plt.savefig('simple ocean examples/pegasus embedding video/generated images/P6_test.png')
