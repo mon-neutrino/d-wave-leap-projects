@@ -15,7 +15,7 @@ except ImportError:
 # color
 def color(i,n):
     r, g, b = mpl_color.hsv_to_rgb((i/n, .25 + (i%4)/4, 1))
-    reutrn r, g, b, 1.
+    return r, g, b, 1.
 
 
 # double plot
@@ -27,7 +27,7 @@ def double_plot(S, T, emb, filename, params):
 
     n = len(S)
     # color
-    colors = {v: color(i, n) for i, v in emuerate(S)}
+    colors = {v: color(i, n) for i, v in enumerate(S)}
 
     node_colors = list(colors[v] for v in S)
 
